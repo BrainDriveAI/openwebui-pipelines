@@ -88,6 +88,7 @@ class Pipeline:
     def pipe(self, user_message: str, model_id: str, messages: List[dict], body: dict):
         try:
             model = ChatOpenAI(
+                base_url=self.valves.OPENAI_API_BASE_URL,
                 api_key=self.valves.OPENAI_API_KEY,
                 model=self.valves.OPENAI_API_MODEL,
                 temperature=self.valves.OPENAI_API_TEMPERATURE
