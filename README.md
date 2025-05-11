@@ -1,3 +1,7 @@
+> ⚠️ **Archived Project**  
+> This project is no longer actively maintained by the original authors.  
+> The repository remains available for reference and community use.
+
 # BrainDriveAI's Custom Pipelines for OpenWebUI
 
 Welcome to our collection of **custom OpenWebUI pipelines**! These pipelines enhance the capabilities of your OpenWebUI instance by integrating advanced logic, external services, and modular workflows.  
